@@ -26,12 +26,12 @@ modelBuilder.Entity<User>()
 ```csharp
 
 
-EfSmartApi/
+EF-Best-Practices-SmartApi/
 │
-├── EfSmartApi.sln
+├── EF-Best-Practices-SmartApi.sln
 ├── README.md
 │
-├── EfSmartApi/
+├── EF-Best-Practices-SmartApi/
 │   ├── Controllers/
 │   │   └── UserController.cs
 │   ├── Services/
@@ -44,5 +44,5 @@ EfSmartApi/
 │   ├── Data/
 │   │   └── AppDbContext.cs
 │   ├── Program.cs
-│   └── EfSmartApi.csproj
+│   └── EF-Best-Practices-SmartApi.csproj
 
