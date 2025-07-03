@@ -20,11 +20,12 @@ A real-world .NET 8 Web API project that demonstrates **smart usage of Entity Fr
 
 In this project, we define an index on the `Email` column like this:
 
-```csharp
 modelBuilder.Entity<User>()
     .HasIndex(u => u.Email);
 
-```plaintext
+```csharp
+
+
 EfSmartApi/
 │
 ├── EfSmartApi.sln
