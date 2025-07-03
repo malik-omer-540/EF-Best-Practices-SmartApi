@@ -1,0 +1,6 @@
+@EF_Best_Practices_SmartApi_HostAddress = http://localhost:5147
+
+GET {{EF_Best_Practices_SmartApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
